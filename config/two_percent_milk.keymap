@@ -15,16 +15,18 @@
         default_layer {
             label = "Qwety";
             bindings = <
-                &kp X    &kp Y    &kp Z
-                &kp 1    &kp 2    &kp 3
+                &kp X
+                &kp Y
+                &kp Z
             >;
         };
 
         bt_layer {
             label = "BLE"
             bindings = <
-                &kp X    &kp Y    &kp Z
-                &kp 1    &kp 2    &kp 3
+                &kp X
+                &kp Y
+                &kp Z
             >;
         };
     };
