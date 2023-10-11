@@ -14,8 +14,15 @@
 
         default_layer {
             bindings = <
-                &kp X
-                &kp Z
+                &kp X &kp Y &kp Z
+                &kp 1 &kp 2 &kp 3
+            >;
+        };
+
+        bt_layer {
+            bindings = <
+                &kp X &kp Y &kp Z
+                &kp 1 &kp 2 &kp 3
             >;
         };
     };
