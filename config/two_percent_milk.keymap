@@ -15,7 +15,7 @@
         default_layer {
             label = "Qwety";
             bindings = <
-                &kp X
+                &bt BT_SEL 1
                 &mo 1
             >;
         };
@@ -23,7 +23,7 @@
         bt_layer {
             label = "BLE"
             bindings = <
-                &kp BT_CLR
+                &bt BT_CLR
                 &none
             >;
         };
