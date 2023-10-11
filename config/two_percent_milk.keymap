@@ -16,17 +16,15 @@
             label = "Qwety";
             bindings = <
                 &kp X
-                &kp Y
-                &kp Z
+                &mo 1
             >;
         };
 
         bt_layer {
             label = "BLE"
             bindings = <
-                &kp X
-                &kp Y
-                &kp Z
+                &kp BT_CLR
+                &none
             >;
         };
     };
